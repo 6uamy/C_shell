@@ -64,15 +64,15 @@ VMware 또는 VirtualBox 설치
 
 iso 형식의 운영체제 이미지를 다운로드 받아 설치한다.
 구분	운영체제/배포본	웹 사이트 주소
-UNIX	solaris	http://www.oracle.com/kr/index.html
-FreeBSD	http://www.freebsd.org/
-NetBSD	http://www.netbsd.org/
-OpenBSD	http://www.openbsd.org/
-Linux	ubuntu	http://www.ubuntu.com/index_roadshow
-fedora	http://getfedora.org/
-CentOS	http://www.centos.org/
-KALI linux	https://www.kali.org/
-SUlinux	https://www.sulinux.net/2014/
+- UNIX	solaris	http://www.oracle.com/kr/index.html
+- FreeBSD	http://www.freebsd.org/
+- NetBSD	http://www.netbsd.org/
+- OpenBSD	http://www.openbsd.org/
+- Linux	ubuntu	http://www.ubuntu.com/index_roadshow
+- fedora	http://getfedora.org/
+- CentOS	http://www.centos.org/
+- KALI linux	https://www.kali.org/
+- SUlinux	https://www.sulinux.net/2014/
 Linux/ubuntu, 메모리 1GB, 가상 하드디스크 8GB(VDI, 동적할당)으로 가상머신을 할당한다.
 IDE에 우분투 이미지를 넣고 설치를 진행한다.
 ## 2.2 터미널 접속 환경 구성
@@ -88,18 +88,18 @@ Acroedit에서 본인의 PC 환경에 맞는 버전을 다운로드하여 설치
 FTP 설정이 완료되면 [서버 접속(Alt+E)] 아이콘을 클릭한다. 가상머신의 서버에 접속하여 파일 및 디렉터리 정보를 가져온다.
 작업할 파일을 선택하면 해당 파일을 불러오고, 여기서 변경 사항을 수정하여 저장하면 서버에 바로 저장된다.
 # 3장 최종 구현 명령어
-cat : 1개 이상의 파일을 화면에 출력
-pwd : 현재 working 디렉토리 출력
-cd : working 디렉토리 변경
-mkdir : 디렉토리 생성
-ls : 현재 디렉토리에 있는 파일 이름을 출력
-history : 과거 사용된 명령어를 출력
-![number] -history : 과거 사용된 명령어를 재실행
-ps : 실행중인 process를 출력
-cp : 파일 복사
-rm : 파일 및 디렉토리 삭제
-ln : hard link 작성
-stat : 파일의 status를 출력
-chmod : 파일의 permission을 변경
-alias : 명령어를 alias
-exit : shell
+- cat : 1개 이상의 파일을 화면에 출력
+- pwd : 현재 working 디렉토리 출력
+- cd : working 디렉토리 변경
+- mkdir : 디렉토리 생성
+- ls : 현재 디렉토리에 있는 파일 이름을 출력
+- history : 과거 사용된 명령어를 출력
+- ![number] -history : 과거 사용된 명령어를 재실행
+- ps : 실행중인 process를 출력
+- cp : 파일 복사
+- rm : 파일 및 디렉토리 삭제
+- ln : hard link 작성
+- stat : 파일의 status를 출력
+- chmod : 파일의 permission을 변경
+- alias : 명령어를 alias
+- exit : shell
